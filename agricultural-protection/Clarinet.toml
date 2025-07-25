@@ -1,0 +1,11 @@
+[project]
+name = "agricultural-protection"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+analysis = ["check_checker"]
+costs_version = 2
+[contracts.weather-based]
+path = "contracts/weather-based.clar"
+depends_on = []
